@@ -1,0 +1,23 @@
+{
+  "name": "mydemoapp_appium_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^9.11.0",
+    "mydemoapp_appium_testing": "file:"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.11.0",
+    "@wdio/mocha-framework": "^9.11.0",
+    "@wdio/spec-reporter": "^9.11.0",
+    "@wdio/visual-service": "^6.3.2",
+    "appium-uiautomator2-driver": "^4.1.1"
+  }
+}
